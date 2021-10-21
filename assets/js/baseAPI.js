@@ -14,14 +14,12 @@ $.ajaxPrefilter(function (options) {
     // 全局同一挂载 complete回调
     options.complete =
         function (res) {
-            console.log(res);
             // responseJSON 服务器返回数据
             // console.log(res.responseJSON);
             // 判断请求是否成功
             if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
                 localStorage.removeItem('token');
                 location.href = '/login.html';
-                console.log(11);
             }
         }
 })

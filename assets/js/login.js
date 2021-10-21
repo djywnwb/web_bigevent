@@ -68,6 +68,8 @@ $(function () {
                 // console.log(res.token);
                 // 跳转后台首页
                 location.href = '/index.html';
+                
+                
             }
         })
     })

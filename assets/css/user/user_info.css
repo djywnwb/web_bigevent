@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.layui-form {
+    width: 500px;
+}
+/* 强制清除表单的c3动画  */
+input {
+    transition: none !important;
+}
