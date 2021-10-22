@@ -1,7 +1,7 @@
 $(function () {
     // 调用 getUserInfo获得用户基本信息
     getUserInfo();
-    
+
 })
 var layer = layui.layer
 $("#btnLogout").on('click', function () {
@@ -83,6 +83,8 @@ function renderAvatar(user) {
 
 
     }
+
 }
+
 
 

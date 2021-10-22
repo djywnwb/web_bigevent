@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.layui-card-header {
+    display: flex;
+    /* 内容两边贴边对齐 space-between */
+    justify-content: space-between;
+    /* 文本上下居中 */
+    align-items: center;
+}
+
+.layui-form {
+    padding-top: 15px;
+    width: 470px;
+}
